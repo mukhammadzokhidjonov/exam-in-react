@@ -1,0 +1,53 @@
+.home_order_buttons {
+	border-bottom: 1px solid #393C49;
+	.order_buttons_header {
+		margin-bottom: 24px;
+		h2 {
+			font-family: 'barlow-600';
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 140%;
+		}
+	}
+
+	.order_buttons_holder {
+		margin-bottom: 24px;
+		button {
+			font-family: 'barlow-600';
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 140%;
+			color: #EA7C69;
+			padding: 7px 12px;
+			background: #1F1D2B;
+			border: 1px solid #393C49;
+			box-sizing: border-box;
+			border-radius: 8px;
+			margin-right: 8px;
+			outline: none;
+			&:active {
+				color: #fff;
+				background: #EA7C69;
+			}
+		}
+	}
+
+	.order_buttons_titles {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 24px;
+		h3 {
+			font-family: 'barlow-600';
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 140%;
+			display: inline-block;
+		}
+	}
+	.order_buttons_titles_right {
+		display: flex;
+		justify-content: space-between;
+		width: 30%;
+	}
+}

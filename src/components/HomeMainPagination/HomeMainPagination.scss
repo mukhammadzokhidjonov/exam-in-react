@@ -1,0 +1,19 @@
+.home_main_pagination {
+border-bottom:  1px solid #393C49;
+margin-bottom: 24px;
+	a {
+		font-family: 'barlow-600';
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 140%;
+		color: #FFFFFF;
+		display: inline-block;
+		margin-right: 8px;
+		padding: 0 26px 13px 0;
+		border: 3px solid transparent; 
+		&:hover {
+			color: #EA7C69;
+			border-bottom: 3px solid #EA7C69;
+		}
+	}
+}

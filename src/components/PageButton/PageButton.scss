@@ -1,0 +1,11 @@
+.page-button {
+	margin-bottom: 22px;
+	padding: 13px 24px 11px 12px;
+	border-radius: 12px 0px 0px 12px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&:hover {
+		background-color:  #252836;
+	}
+}

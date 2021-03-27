@@ -1,0 +1,44 @@
+.order_payment {
+	padding-top: 24px;
+	border-top:1px solid #393C49;
+	p {
+		display: inline-block;
+		font-family: 'barlow-400';
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 140%;
+		color: #ABBBC2;
+	}
+	h4 {
+		display: inline-block;
+		font-family: 'barlow-500';
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		text-align: right;
+	}
+	.discount {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 19px;
+	}
+	.subtotal {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 45px;
+	}
+	form {
+		button {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 140%;
+			color: #FAFAFA;
+			background: #EA7C69;
+			box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+			border-radius: 8px;
+			border: none;
+			outline: none;
+			padding: 14px 116px;
+		}
+	}
+}

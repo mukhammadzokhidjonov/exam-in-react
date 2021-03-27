@@ -1,0 +1,57 @@
+.dashboard_person_client {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 10px 0;
+	.client {
+		display: flex;
+		align-items: center;
+		width: 170px;
+		img{
+			display: inline-block;
+			margin-right: 16px;
+		}
+		h4 {
+			font-family: 'barlow-400';
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 140%;
+			color: #E0E6E9;
+		}
+	}
+	.client_food {
+			width: 137px;
+			margin-right: 32px;
+		p {
+			font-family: 'barlow-400';
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 140%;
+			color: #E0E6E9;
+		}
+	}
+	.client_bill {
+		p {
+			font-family: 'barlow-400';
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 140%;
+			color: #E0E6E9;
+		}
+	}
+	.client_status {
+		span {
+			font-family: 'barlow-500';
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 130%;
+			color: #50D1AA;
+			padding: 4px 12px;
+			background: rgba(107, 226, 190, 0.24);
+			border-radius: 30px;
+			display: block;
+		    width: 92px;
+		    text-align: center;
+		}
+	}
+}

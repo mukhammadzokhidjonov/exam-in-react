@@ -1,0 +1,54 @@
+.right_side_top {
+		background: #1F1D2B;
+		border-radius: 8px;
+		padding: 24px;
+		margin-bottom: 24px;
+	.head {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #393C49;
+		margin-bottom: 24px;
+		h2 {
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 140%;
+		}
+		form {
+			select {
+				background: #1F1D2B;
+				border: 1px solid #393C49;
+				box-sizing: border-box;
+				border-radius: 8px;
+				padding: 14px;
+				color: #fff;
+				outline: none;
+				option {
+				color: #fff;
+				display: block;
+				}
+			}
+		}
+	}
+	.view_all_dashboard {
+		button {
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 140%;
+			color: #EA7C69;
+			padding: 14px 0;
+			display: block;
+			background: #1F1D2B;
+			border: 1px solid #EA7C69;
+			box-sizing: border-box;
+			border-radius: 8px;
+			width: 100%;
+			outline: none;
+			&:active {
+				background-color: #EA7C69;
+				color: #fff;
+			}
+		}
+	}
+}

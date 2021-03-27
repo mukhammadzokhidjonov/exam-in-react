@@ -1,0 +1,110 @@
+.main_ordered_dishes_card {
+	margin-top: 24px;
+	.ordered_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 10px;
+		.ordered_top_left {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 80%;
+			.ordered_top_left_1 {
+				display: flex;
+				justify-content: space-between;
+				.top_img_wrapper {
+				img {
+					display: inline-block;
+					margin-right: 5.39px;
+				}
+			}
+			h4 {
+				font-family: 'barlow-500';
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 130%;
+				margin-bottom: 4px;
+				display: block;
+			}
+			p {
+				font-family: 'barlow-500';
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 140%;
+				color: #ABBBC2;
+				display: inline-block;
+
+			}
+			}
+			
+				span {
+				font-family: 'barlow-500';
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 140%;
+				background: #2D303E;
+				border: 1px solid #393C49;
+				box-sizing: border-box;
+				border-radius: 8px;
+				padding: 14px 19.5px 12px 19.5px;
+				display: inline-block;
+			}
+		}
+		.ordered_top_right {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			h3 {
+				margin-left: 61px;
+				font-family: 'barlow-500';
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 140%;
+				text-align: right;
+			}
+		}
+	}
+
+	.ordered_bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.ordered_bottom_left {
+			display: inline-block;
+			width: 100%;
+			input {
+				font-family: 'barlow-400';
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 140%;
+				color: #E0E6E9;
+				padding: 14px;
+				background: #2D303E;
+				border: 1px solid #393C49;
+				box-sizing: border-box;
+				border-radius: 8px;
+				outline: none;
+				width: 87%;
+			}
+		}
+
+		.ordered_bottom_right {
+			display: inline-block;
+			button {
+				border: none;
+				outline: none;
+				background-color: transparent;
+				padding: 0;
+					display: inline-block;
+
+				img{
+					background: #1F1D2B;
+					border-radius: 8px;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+.home_main_card {
+	max-width: 192px;
+	background: #1F1D2B;
+	border-radius: 16px;
+	padding: 0 21px 24px 21px;
+	margin-bottom: 58px;
+	max-height: 226px;
+
+	img {
+		position: relative;
+		top: -37px;
+	}
+	h4 {
+		font-family: 'barlow-500';
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 130%;
+		text-align: center;
+		margin-bottom: 8px;
+		width: 144px;
+		color: #fff;
+	}
+	p {
+		font-family: 'barlow-400';
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 140%;
+		text-align: center;
+		margin-bottom: 4px;
+		color: #fff;
+
+	}
+	span {
+		font-family: 'barlow-400';
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 140%;
+		text-align: center;
+		color: #ABBBC2;
+		display: block;
+	}
+}
